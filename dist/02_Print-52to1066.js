@@ -1,7 +1,8 @@
+"use strict";
 // [] - Print -52 to 1066
 // Print integers from -52 to 1066 using a FOR loop.
 function printLoop(start, end) {
-    for (var i = start; i < end; i++) {
+    for (let i = start; i < end; i++) {
         console.log(i);
     }
 }
