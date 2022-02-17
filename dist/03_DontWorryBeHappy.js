@@ -1,5 +1,5 @@
 "use strict";
-// [] - Don’t Worry, Be Happy
+// [x] - Don’t Worry, Be Happy
 // Create beCheerful(). Within it, console.log string "good morning!" Call it
 // 98 times.
 function beCheerful(loops) {
@@ -7,4 +7,4 @@ function beCheerful(loops) {
         console.log('good morning');
     }
 }
-beCheerful(98);
+const result = beCheerful(98);
