@@ -3,7 +3,7 @@
 // counts down by one, from the number (as array’s ‘zeroth’ element) down to
 // 0 (as the last element). How long is this array?
 
-function countdown(input: number) {
+function countdownArray(input: number) {
     let arr: number[] = []
     for (let i = input; i > 0; i--){
         arr.push(i);

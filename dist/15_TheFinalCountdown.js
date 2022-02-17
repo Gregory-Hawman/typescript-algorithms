@@ -1,5 +1,5 @@
 "use strict";
-// [] - The Final Countdown
+// [x] - The Final Countdown
 // This is based on “Flexible Countdown”. The parameter names are not as
 // helpful, but the problem is essentially identical; don’t be thrown off! Given
 // 4 parameters (param1,param2,param3,param4), print the multiples of
@@ -7,3 +7,14 @@
 // multiple is equal to param4, then skip (don’t print) it. Do this using a
 // WHILE. Given (3,5,17,9), print 6,12,15 (which are all of the multiples of 3
 // between 5 and 17, and excluding the value 9).
+function finalCountdown(param1, param2, param3, param4) {
+    for (let i = param2; i < param3; i++) {
+        if (i === param4) {
+            continue;
+        }
+        if (i % param1 === 0) {
+            console.log(i);
+        }
+    }
+}
+finalCountdown(3, 5, 17, 9);
